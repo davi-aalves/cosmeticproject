@@ -1,3 +1,4 @@
+/*==nav================*/
 .navigation {
 	display: flex;
 	justify-content: space-between;
@@ -9,7 +10,7 @@
 }
 .logo {
 	font-size: 1.8rem;
-	color: var(--cinza-escurro);
+	color: var(--color-primary);
 	font-weight: 800;
 	text-transform: uppercase;
 	height: 70px;
@@ -25,7 +26,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #f3f3f3;
+	background-color: var(--color-secondary);
 	border-radius: 30px;
 	padding: 0px 20px;
 	margin-left: auto;
@@ -33,15 +34,15 @@
 .search-box input {
 	width: 95%;
 	height: 100%;
-	background-color: transparent;
+	background-color: var(--bg-search-box-input);
 	border: none;
 	outline: none;
 }
 .search-box button {
-	color: var(--cinza-escurro);
+	color: var(--color-primary);
 	border: none;
 	outline: none;
-	background-color: transparent;
+	background-color: var(--bg-search-box-input);
 	cursor: pointer;
 }
 .nav-btns {
@@ -56,7 +57,7 @@
 	justify-content: center;
 	align-items: center;
 	border-radius: 50%;
-	background-color: #fed2d1;
+	background-color: var(--color-accent);
 	color: #383838;
 	font-size: 0.8rem;
 	margin-left: 10px;

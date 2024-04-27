@@ -1,0 +1,35 @@
+/*==partner-logo=================================*/
+#partner {
+	display: flex;
+	flex-direction: column;
+	max-width: 1200px;
+	width: 90%;
+	margin: 50px auto;
+}
+.partner-heading h3 {
+	font-size: 1.56rem;
+	font-weight: 700;
+	color: #202020;
+	letter-spacing: 0.5px;
+}
+.logo-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	grid-gap: 15px;
+}
+.logo-container img {
+	height: 50px;
+	object-fit: contain;
+	object-position: center;
+	filter: grayscale(1);
+	opacity: 0.3;
+	transition: all ease 0.3s;
+}
+.logo-container img:hover {
+	filter: grayscale(0);
+	opacity: 1;
+	transition: all ease 0.3s;
+}

@@ -1,0 +1,110 @@
+/*==footer================================*/
+footer {
+	width: 100%;
+	border-top: 1px solid var(--border-footer);
+}
+.footer-container {
+	max-width: 1200px;
+	width: 90%;
+	margin: 0px auto;
+	padding: 50px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.footer-company-box,
+.footer-subscribe {
+	max-width: 330px;
+}
+.footer-company-box .footer-logo {
+	color: var(--color-primary);
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+.footer-company-box p,
+.footer-subscribe p {
+	color: var(--text-footer);
+	margin: 5px 0px;
+	line-height: 1.6rem;
+	font-size: 0.9rem;
+}
+.footer-social {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.footer-social a {
+	margin-top: 10px;
+	margin-right: 10px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid var(--border-footer);
+	color: var(--color-primary);
+	font-size: 0.9rem;
+}
+.footer-link-box strong,
+.footer-subscribe strong {
+	font-size: 1.2rem;
+	color: var(--color-primary);
+	font-weight: 600;
+}
+.footer-link-box ul {
+	margin-top: 5px;
+}
+.footer-container ul li a {
+	color: var(--footer-link);
+	display: flex;
+	margin-bottom: 5px;
+	transition: all ease 0.3s;
+	font-weight: 500;
+}
+.footer-container ul li a:hover {
+	color: var(--footer-link-hover);
+}
+.subscribe-box {
+	width: 100%;
+	border: 1px solid #dadada;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	margin-top: 10px;
+}
+.subscribe-box input {
+	width: 100%;
+	border: none;
+	outline: none;
+	background-color: var(--bg-subscribe-input);
+	padding: 0px 15px;
+}
+.subscribe-box button {
+	border: none;
+	outline: none;
+	background-color: var(--bg-subscribe-btn);
+	color: var(--text-subscribe-btn);
+	text-transform: uppercase;
+	font-weight: 500;
+	height: 40px;
+	padding: 0px 20px;
+	cursor: pointer;
+}
+.footer-bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	grid-gap: 10px;
+	border-top: 1px solid var(--border-footer);
+	padding: 20px 0px;
+	max-width: 1200px;
+	width: 90%;
+	margin: auto;
+}
+.footer-bottom span {
+	color: var(--text-footer-bottom);
+	font-size: 0.9rem;
+}

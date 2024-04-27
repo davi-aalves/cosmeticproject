@@ -1,7 +1,8 @@
+/*==main===========================*/
 #main {
 	max-width: 1200px;
 	width: 90%;
-	background-color: #ffedf6;
+	background-color: var(--main-bg-color);
 	padding: 50px;
 	border-radius: 30px;
 	min-height: 500px;
@@ -16,7 +17,7 @@
 	align-items: flex-start;
 }
 .main-text span {
-	color: #ec26b1;
+	color: var(--color-highlight);
 	text-transform: uppercase;
 	letter-spacing: 4px;
 	font-size: 0.8rem;
@@ -24,15 +25,15 @@
 }
 .main-text h1 {
 	font-size: 2.4rem;
-	color: var(--cinza-escurro);
+	color: var(--color-primary);
 	font-weight: 800;
 }
 .main-text h1 font {
-	background-color: #fed2d1;
+	background-color: var(--color-accent);
 	padding: 0px 5px;
 }
 .main-text p {
-	color: #5a5a5a;
+	color: var(--color-text);
 	margin: 10px 0px;
 	text-overflow: ellipsis;
 	display: -webkit-box;
@@ -42,7 +43,7 @@
 }
 .main-text a {
 	font-weight: 800;
-	color: var(--cinza-escurro);
+	color: var(--color-primary);
 	border-bottom: 1px solid #646464;
 	margin-top: 30px;
 }
