@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cosmectic Project</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="shortcut icon" href="assets/images/fav-icon.png" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/All.min.css"
+		/>
+	</head>
+	<body>
+		<!--==navigation=======================-->
+		<nav class="navigation">
+			<!--**logo*****************-->
+			<a href="index.html" class="logo">
+				<img alt="" src="assets/images/logo.png" />
+			</a>
+			<!--**search***************-->
+			<form class="search-box">
+				<input type="text" placeholder="Pesquisar produtos aqui" required />
+				<button>
+					<i class="fa-solid fa-magnifying-glass"></i>
+				</button>
+			</form>
+			<!--**btns*****************-->
+			<div class="nav-btns">
+				<a href="#" class="nav-user">
+					<i class="fa-regular fa-user"></i>
+				</a>
+				<a href="#" class="nav-cart">
+					<i class="fa-solid fa-cart-shopping"></i>
+				</a>
+			</div>
+		</nav>
+
+		<!--==main==========================-->
+		<section id="main">
+			<!--**text*****************-->
+			<div class="main-text">
+				<span>Nova Coleção</span>
+				<h1>
+					Ecommerce <font>Cosmetic Project</font> usando HTML, CSS e JavaScript.
+				</h1>
+				<p>
+					Bem-vindo ao nosso website de produtos de beleza! Aqui você encontra
+					uma variedade incrível de maquiagens, produtos para cuidados com a
+					pele e muito mais para realçar a sua beleza natural. Explore nossa
+					coleção e descubra as últimas tendências em beleza. Oferecemos
+					produtos de alta qualidade para você se sentir ainda mais confiante e
+					radiante em todas as ocasiões. Experimente hoje mesmo!
+				</p>
+
+				<a href="#">Compre Agora</a>
+			</div>
+			<!--**img******************-->
+			<div class="main-img">
+				<img alt="Main Img" src="assets/images/main.png" />
+			</div>
+		</section>
+
+		<!--==product-grid-3=======================-->
+		<section class="product-grid-3">
+			<!--**box*************-->
+			<div class="product-grid-box product-grid-box1">
+				<!--img-->
+				<img src="assets/images/s1.jpg" />
+				<!--text-->
+				<div class="product-grid-text">
+					<strong>Loção Natural</strong>
+					<span>Produtos para cuidados com a </span>
+					<a href="">Compre Agora</a>
+				</div>
+			</div>
+
+			<!--**box*************-->
+			<div class="product-grid-box product-grid-box2">
+				<!--img-->
+				<img src="assets/images/s2.jpg" />
+				<!--text-->
+				<div class="product-grid-text">
+					<strong>3 em 1 Loção Novage</strong>
+					<span>Produtos para cuidados com a </span>
+					<a href="">Compre Agora</a>
+				</div>
+			</div>
+
+			<!--**box*************-->
+			<div class="product-grid-box product-grid-box3">
+				<!--img-->
+				<img src="assets/images/s3.jpg" />
+				<!--text-->
+				<div class="product-grid-text">
+					<strong>Gold FaceWash & Perfume</strong>
+					<span>Produtos para cuidados com a </span>
+					<a href="">Compre Agora</a>
+				</div>
+			</div>
+		</section>
+
+		<!--==New-Products-->
+		<section id="new_products">
+			<!--**heading*********************-->
+			<div class="new-p-heading">
+				<!--heading-->
+				<h3>Novos Produtos</h3>
+				<!--filter-->
+				<ul>
+					<li class="filter-list active" data-filter="All">All</li>
+					<li class="filter-list" data-filter="Skin">Skin</li>
+					<li class="filter-list" data-filter="mackup">Mackup</li>
+					<li class="filter-list" data-filter="nail">Nail's</li>
+				</ul>
+			</div>
+
+			<!--**container******************-->
+			<div class="new-product-container">
+				<!--**box**-->
+				<div class="new-product-box-wrapper Skin">
+					<div class="new-product-box">
+						<!--img-->
+						<a href="#" class="new-product-img">
+							<span>Skin</span>
+							<img src="assets/images/n1.png" />
+						</a>
+						<!--text-->
+						<div class="new-product-text">
+							<a href="#" class="new-product-title">FaceWash For Women</a>
+							<span>20$</span>
+							<a href="#" class="new-p-cart-btn">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<!--end-box-->
+
+				<!--**box**-->
+				<div class="new-product-box-wrapper Skin">
+					<div class="new-product-box">
+						<!--img-->
+						<a href="#" class="new-product-img">
+							<img src="assets/images/n2.png" />
+							<span>Skin</span>
+						</a>
+						<!--text-->
+						<div class="new-product-text">
+							<a href="#" class="new-product-title">Element SmAll FaceWash</a>
+							<span>10$</span>
+							<a href="#" class="new-p-cart-btn">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<!--end-box-->
+
+				<!--**box**-->
+				<div class="new-product-box-wrapper nail">
+					<div class="new-product-box">
+						<!--img-->
+						<a href="#" class="new-product-img">
+							<span>Nail</span>
+							<img src="assets/images/n3.png" />
+						</a>
+						<!--text-->
+						<div class="new-product-text">
+							<a href="#" class="new-product-title"
+								>Blue Fake Nail's For Women</a
+							>
+							<span>25$</span>
+							<a href="#" class="new-p-cart-btn">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<!--end-box-->
+
+				<!--**box**-->
+				<div class="new-product-box-wrapper nail">
+					<div class="new-product-box">
+						<!--img-->
+						<a href="#" class="new-product-img">
+							<span>Nail</span>
+							<img src="assets/images/n4.png" />
+						</a>
+						<!--text-->
+						<div class="new-product-text">
+							<a href="#" class="new-product-title">Shiny Red Nail Polish</a>
+							<span>21$</span>
+							<a href="#" class="new-p-cart-btn">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<!--end-box-->
+
+				<!--**box**-->
+				<div class="new-product-box-wrapper mackup">
+					<div class="new-product-box">
+						<!--img-->
+						<a href="product_page.html" class="new-product-img">
+							<span>Mackup</span>
+							<img src="assets/images/n5.png" />
+						</a>
+						<!--text-->
+						<div class="new-product-text">
+							<a href="product_page.html" class="new-product-title"
+								>Set of Bridel Eye Lashies</a
+							>
+							<span>11$</span>
+							<a href="#" class="new-p-cart-btn">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<!--end-box-->
+
+				<!--**box**-->
+				<div class="new-product-box-wrapper nail">
+					<div class="new-product-box">
+						<!--img-->
+						<a href="#" class="new-product-img">
+							<span>Nail</span>
+							<img src="assets/images/n6.png" />
+						</a>
+						<!--text-->
+						<div class="new-product-text">
+							<a href="#" class="new-product-title">Nail Polish For Women</a>
+							<span>12$</span>
+							<a href="#" class="new-p-cart-btn">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<!--end-box-->
+
+				<!--**box**-->
+				<div class="new-product-box-wrapper mackup">
+					<div class="new-product-box">
+						<!--img-->
+						<a href="#" class="new-product-img">
+							<span>Mackup</span>
+							<img src="assets/images/n7.png" />
+						</a>
+						<!--text-->
+						<div class="new-product-text">
+							<a href="#" class="new-product-title">Permanent Lipstick</a>
+							<span>30$</span>
+							<a href="#" class="new-p-cart-btn">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<!--end-box-->
+
+				<!--**box**-->
+				<div class="new-product-box-wrapper Skin">
+					<div class="new-product-box">
+						<!--img-->
+						<a href="#" class="new-product-img">
+							<span>Skin</span>
+							<img src="assets/images/n8.png" />
+						</a>
+						<!--text-->
+						<div class="new-product-text">
+							<a href="#" class="new-product-title">Women's FaceWash</a>
+							<span>14$</span>
+							<a href="#" class="new-p-cart-btn">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<!--end-box-->
+
+				<!--**box**-->
+				<div class="new-product-box-wrapper Skin">
+					<div class="new-product-box">
+						<!--img-->
+						<a href="#" class="new-product-img">
+							<span>Skin</span>
+							<img src="assets/images/n9.png" />
+						</a>
+						<!--text-->
+						<div class="new-product-text">
+							<a href="#" class="new-product-title"
+								>Skin Car Lotion For Women</a
+							>
+							<span>9$</span>
+							<a href="#" class="new-p-cart-btn">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<!--end-box-->
+
+				<!--**box**-->
+				<div class="new-product-box-wrapper mackup">
+					<div class="new-product-box">
+						<!--img-->
+						<a href="#" class="new-product-img">
+							<span>Mackup</span>
+							<img src="assets/images/n10.png" />
+						</a>
+
+						<div class="new-product-text">
+							<a href="#" class="new-product-title">Face Powder For Women</a>
+							<span>8$</span>
+							<a href="#" class="new-p-cart-btn">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<!--end-box-->
+			</div>
+		</section>
+
+		<!--==product-grid-1.5=======================-->
+		<section class="product-grid-half">
+			<!--**box*************-->
+			<div class="product-grid-box product-grid-box2">
+				<!--img-->
+				<img src="assets/images/h1.jpg" />
+				<!--text-->
+				<div class="product-grid-text">
+					<strong>Todos os Tipos de Maquiagem</strong>
+					<span>Produtos para cuidados com a </span>
+					<a href="">Compre Agora</a>
+				</div>
+			</div>
+
+			<!--**box*************-->
+			<div class="product-grid-box product-grid-box1">
+				<!--img-->
+				<img src="assets/images/s1.jpg" />
+				<!--text-->
+				<div class="product-grid-text">
+					<strong>Natural Lotion</strong>
+					<span>Produtos para cuidados com a </span>
+					<a href="">Compre Agora</a>
+				</div>
+			</div>
+
+			<!--**box*************-->
+			<div class="product-grid-box product-grid-box3">
+				<!--img-->
+				<img src="assets/images/s3.jpg" />
+				<!--text-->
+				<div class="product-grid-text">
+					<strong>Gold Natural Lotion</strong>
+					<span>Produtos para cuidados com a </span>
+					<a href="">Compre Agora</a>
+				</div>
+			</div>
+		</section>
+
+		<!--==popular-products=============================-->
+		<section id="popular-product">
+			<!--**heading*******************-->
+			<div class="popular-heading">
+				<h3>Mais Populares</h3>
+				<a>All</a>
+			</div>
+
+			<!--**container****************-->
+			<div class="popular-container">
+				<!--**box**********-->
+				<div class="popular-box">
+					<!--img-->
+					<a href="#" class="popular-box-img">
+						<img alt="" src="assets/images/n1.png" />
+					</a>
+					<!--text-->
+					<div class="popular-box-text">
+						<a href="#">Hair Shampo For Heathly Hair For Women</a>
+						<span class="p-category">Produtos para Cabelo</span>
+						<span class="p-price">10$ <del>15$</del></span>
+					</div>
+				</div>
+
+				<!--**box**********-->
+				<div class="popular-box">
+					<!--img-->
+					<a href="#" class="popular-box-img">
+						<img alt="" src="assets/images/n2.png" />
+					</a>
+					<!--text-->
+					<div class="popular-box-text">
+						<a href="#">NatruAlly Created FaceWash For Women</a>
+						<span class="p-category">Produtos para Cabelo</span>
+						<span class="p-price">10$ <del>15$</del></span>
+					</div>
+				</div>
+
+				<!--**box**********-->
+				<div class="popular-box">
+					<!--img-->
+					<a href="#" class="popular-box-img">
+						<img alt="" src="assets/images/n3.png" />
+					</a>
+					<!--text-->
+					<div class="popular-box-text">
+						<a href="#">Girls Mix Blue Fake Nail's Avalibale For Buy</a>
+						<span class="p-category">Produtos para Cabelo</span>
+						<span class="p-price">10$ <del>15$</del></span>
+					</div>
+				</div>
+
+				<!--**box**********-->
+				<div class="popular-box">
+					<!--img-->
+					<a href="#" class="popular-box-img">
+						<img alt="" src="assets/images/n4.png" />
+					</a>
+					<!--text-->
+					<div class="popular-box-text">
+						<a href="#">Shiny Red Nail Polish For Women, Buy Now</a>
+						<span class="p-category">Produtos para Cabelo</span>
+						<span class="p-price">10$ <del>15$</del></span>
+					</div>
+				</div>
+
+				<!--**box**********-->
+				<div class="popular-box">
+					<!--img-->
+					<a href="#" class="popular-box-img">
+						<img alt="" src="assets/images/n5.png" />
+					</a>
+					<!--text-->
+					<div class="popular-box-text">
+						<a href="#">Bridle Eyes Lashies For Sell With 20% Discount</a>
+						<span class="p-category">Produtos para Cabelo</span>
+						<span class="p-price">10$ <del>15$</del></span>
+					</div>
+				</div>
+
+				<!--**box**********-->
+				<div class="popular-box">
+					<!--img-->
+					<a href="#" class="popular-box-img">
+						<img alt="" src="assets/images/n6.png" />
+					</a>
+					<!--text-->
+					<div class="popular-box-text">
+						<a href="#">Red Nail Polish For Women</a>
+						<span class="p-category">Produtos para Cabelo</span>
+						<span class="p-price">10$ <del>15$</del></span>
+					</div>
+				</div>
+
+				<!--**box**********-->
+				<div class="popular-box">
+					<!--img-->
+					<a href="#" class="popular-box-img">
+						<img alt="" src="assets/images/n7.png" />
+					</a>
+					<!--text-->
+					<div class="popular-box-text">
+						<a href="#">Women Red LipStick For Sell, Buy Now</a>
+						<span class="p-category">Produtos para Cabelo</span>
+						<span class="p-price">10$ <del>15$</del></span>
+					</div>
+				</div>
+
+				<!--**box**********-->
+				<div class="popular-box">
+					<!--img-->
+					<a href="#" class="popular-box-img">
+						<img alt="" src="assets/images/n8.png" />
+					</a>
+					<!--text-->
+					<div class="popular-box-text">
+						<a href="#">FaceWash For Heathly Skin For Women</a>
+						<span class="p-category">Produtos para Cabelo</span>
+						<span class="p-price">10$ <del>15$</del></span>
+					</div>
+				</div>
+
+				<!--**box**********-->
+				<div class="popular-box">
+					<!--img-->
+					<a href="#" class="popular-box-img">
+						<img alt="" src="assets/images/n9.png" />
+					</a>
+					<!--text-->
+					<div class="popular-box-text">
+						<a href="#">Hair Shampo For Heathly Hair For Women</a>
+						<span class="p-category">Produtos para Cabelo</span>
+						<span class="p-price">10$ <del>15$</del></span>
+					</div>
+				</div>
+
+				<!--**box**********-->
+				<div class="popular-box">
+					<!--img-->
+					<a href="#" class="popular-box-img">
+						<img alt="" src="assets/images/n8.png" />
+					</a>
+					<!--text-->
+					<div class="popular-box-text">
+						<a href="#">FaceWash For Heathly Skin For Women</a>
+						<span class="p-category">Produtos para Cabelo</span>
+						<span class="p-price">10$ <del>15$</del></span>
+					</div>
+				</div>
+
+				<!--**box**********-->
+				<div class="popular-box">
+					<!--img-->
+					<a href="#" class="popular-box-img">
+						<img alt="" src="assets/images/n1.png" />
+					</a>
+					<!--text-->
+					<div class="popular-box-text">
+						<a href="#">Hair Shampo For Heathly Hair For Women</a>
+						<span class="p-category">Produtos para Cabelo</span>
+						<span class="p-price">10$ <del>15$</del></span>
+					</div>
+				</div>
+
+				<!--**box**********-->
+				<div class="popular-box">
+					<!--img-->
+					<a href="#" class="popular-box-img">
+						<img alt="" src="assets/images/n3.png" />
+					</a>
+					<!--text-->
+					<div class="popular-box-text">
+						<a href="#">Mix Color Nail Polish Avalibale For Sell, Buy Now</a>
+						<span class="p-category">Produtos para Cabelo</span>
+						<span class="p-price">10$ <del>15$</del></span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="partner">
+			<div class="partner-heading">
+				<h3>Nossos Parceiros de Confiança</h3>
+			</div>
+
+			<div class="logo-container">
+				<img alt="logo" src="assets/images/logo-1.png" />
+				<img alt="logo" src="assets/images/logo-2.png" />
+				<img alt="logo" src="assets/images/logo-3.png" />
+				<img alt="logo" src="assets/images/logo-4.png" />
+			</div>
+		</section>
+
+		<!--==product-grid-2=======================-->
+		<section class="product-grid-2">
+			<!--**box*************-->
+			<div class="product-grid-box product-grid-box3">
+				<!--img-->
+				<img src="assets/images/g1.jpg" />
+				<!--text-->
+				<div class="product-grid-text">
+					<strong>Mackup Collection</strong>
+					<span>Produtos para cuidados com a </span>
+					<a href="">Compre Agora</a>
+				</div>
+			</div>
+
+			<!--**box*************-->
+			<div class="product-grid-box product-grid-box2">
+				<!--img-->
+				<img src="assets/images/g2.jpg" />
+				<!--text-->
+				<div class="product-grid-text">
+					<strong>Produtos com Desconto</strong>
+					<span>Produtos para cuidados com a </span>
+					<a href="">Compre Agora</a>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="footer-container">
+				<!--**comoany-box**-->
+				<div class="footer-company-box">
+					<!--logo-->
+					<a href="#" class="footer-logo">Cosmetic Project</a>
+					<!--details-->
+					<p>
+						Oferecemos produtos de alta qualidade para você se sentir ainda mais
+						confiante e radiante em todas as ocasiões.
+					</p>
+					<!--social-box-->
+					<div class="footer-social">
+						<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+						<a href="#"><i class="fa-brands fa-instagram"></i></a>
+						<a href="#"><i class="fa-brands fa-twitter"></i></a>
+						<a href="#"><i class="fa-brands fa-youtube"></i></a>
+					</div>
+				</div>
+				<!--**link-box***-->
+				<div class="footer-link-box">
+					<strong>Links Principais</strong>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contato</a></li>
+						<li><a href="#">Serviços</a></li>
+						<li><a href="https://portfolio-davi-alencar.vercel.app/" target="_blank">Portfolio</a></li>
+					</ul>
+				</div>
+				<!--**link-box***-->
+				<div class="footer-link-box">
+					<strong>Links Externos</strong>
+					<ul>
+						<li><a href="#">Nossos Produtos</a></li>
+						<li><a href="#">Política de Privacidade</a></li>
+						<li><a href="#">Disclaimer</a></li>
+						<li><a href="#">Termos e Condições</a></li>
+					</ul>
+				</div>
+				<!--**link-box***-->
+				<div class="footer-link-box">
+					<strong>Nossos Produtos</strong>
+					<ul>
+						<li><a href="#">Skin Care</a></li>
+						<li><a href="#">Cuidados com o cabelo</a></li>
+						<li><a href="#">Esmaltes</a></li>
+						<li><a href="#">Delineadores</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<!--**bottom**********************-->
+			<div class="footer-bottom">
+				<span class="footer-owner">Projeto para o programa Desenvolve</span>
+				<span class="copyright">&#169; Copyright 2024 - Davi Alencar</span>
+			</div>
+		</footer>
+
+		<script src="js/jquery-3.6.1.js"></script>
+		<script>
+			var selector = ".new-p-heading li";
+
+			$(selector).on("click", function () {
+				$(selector).removeClass("active");
+				$(this).addClass("active");
+			});
+			/*==filter=============================*/
+			$(document).ready(function () {
+				$(".filter-list").click(function () {
+					const value = $(this).attr("data-filter");
+					if (value == "All") {
+						$(".new-product-box-wrapper").show("1000");
+					} else {
+						$(".new-product-box-wrapper")
+							.not("." + value)
+							.hide("1000");
+						$(".new-product-box-wrapper")
+							.filter("." + value)
+							.show("1000");
+					}
+				});
+			});
+		</script>
+	</body>
+</html>
